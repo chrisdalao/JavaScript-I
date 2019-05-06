@@ -51,6 +51,6 @@ add(5, 2);
 // });
 // console.log(triple);
 let exampleArray = [1, 2, 3, 4];
-const triple = (num) => exampleArray.map(num * 3);
+const triple = exampleArray.map( num => num * 3 );
 
-// console.log(triple);
+console.log(triple);
